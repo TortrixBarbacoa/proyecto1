@@ -1,0 +1,11 @@
+<div class="jumbotron text-center">
+
+  <h1 class="display-4">Aplicación Juego de Dados</h1>
+  <button (click)="jugar()" class="btn btn-success btn-lg">Tirar Dados</button>
+  <br>
+  <img [src]="dadoIzquierdo" alt="Imagen dados" class="img-dado">
+  <img [src]="dadoDerecho" alt="Imagen dados" class="img-dado">
+  <br>
+  <h1 *ngIf="numero1 === numero2"><span class="badge bg-success">¡¡GENIAL, GANASTE!!</span></h1>
+
+</div>

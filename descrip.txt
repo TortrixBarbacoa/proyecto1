@@ -1,0 +1,1 @@
+Proyecto de juego de dados utilizando Angular. Práctica de curso de Programación Web 2.
